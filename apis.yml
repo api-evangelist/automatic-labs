@@ -1,7 +1,24 @@
 aid: automatic-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/automatic-labs.png
 name: Automatic Labs
-description: Automatic Labs is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Automatic Labs was a connected-car company (the Automatic OBD-II adapter and
+  companion app plus a developer platform / REST API for trip, vehicle, and driving-behavior
+  data), founded circa 2011 and backed by a16z. It was acquired by SiriusXM in 2017 and wound
+  down: the service and its developer API were discontinued around May 2020. As of this enrichment
+  pass the automatic.com domain (and its api./developer. subdomains) 301-redirects to automattic.com,
+  the unrelated WordPress company, so no live API, documentation, or developer surface remains to
+  harvest. This profile is retained as a defunct a16z portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/automatic-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,30 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: 'https://automatic.com and api./developer. subdomains 301-redirect to
+  https://automattic.com (probed 2026-07-18, HTTP 200 final=automattic.com); connected-car
+  service discontinued ~2020 after SiriusXM acquisition.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Automotive
+- Connected Car
+- Telematics
+- OBD-II
+- Internet of Things
+- Mobile
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
