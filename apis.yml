@@ -30,7 +30,7 @@ x-status: defunct
 x-status-evidence: 'https://automatic.com and api./developer. subdomains 301-redirect to
   https://automattic.com (probed 2026-07-18, HTTP 200 final=automattic.com); connected-car
   service discontinued ~2020 after SiriusXM acquisition.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
