@@ -64,3 +64,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/sirius-xm/
+  name: SiriusXM
+  x-relationship: acquired
+  x-evidence: "It was acquired by SiriusXM in 2017 and wound down: the service and its developer API were discontinued around May 2020."
